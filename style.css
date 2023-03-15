@@ -1,0 +1,44 @@
+body {
+ 
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg {
+  background-color: white;
+  
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+  }
+.text-body{
+  width: 1200px;
+  height: 500px;
+  background-color: rgb(56, 115, 115);
+  border-radius: 15px;
+}
+#text {
+  font-size: 4rem;
+}
+
+#author {
+  font-size: 3rem;
+  text-align: right;
+}
+
+#buttons {
+  position: sticky;
+  padding: 4vw;
+  margin: 4vw;
+}
